@@ -1,0 +1,18 @@
+(base) yuchendemacbook:Movies-PA yuchenxu$ ruby Control.rb
+Start the prediction: 2020-01-28 11:41:40 -0500
+The mean of predicted data is 3.55, and the mean of average data is 3.54.
+The standard deviation of the prediction model is 1.07
+There are 7471 correct prediction out of 20000, the accuracy of the prediction is 0.37.
+The mean of predicted data is 3.55, and the mean of average data is 3.54.
+The standard deviation of the prediction model is 1.06
+There are 7551 correct prediction out of 20000, the accuracy of the prediction is 0.38.
+The mean of predicted data is 3.53, and the mean of average data is 3.52.
+The standard deviation of the prediction model is 1.05
+There are 7610 correct prediction out of 20000, the accuracy of the prediction is 0.38.
+The mean of predicted data is 3.54, and the mean of average data is 3.52.
+The standard deviation of the prediction model is 1.05
+There are 7495 correct prediction out of 20000, the accuracy of the prediction is 0.37.
+The mean of predicted data is 3.54, and the mean of average data is 3.52.
+The standard deviation of the prediction model is 1.05
+There are 7490 correct prediction out of 20000, the accuracy of the prediction is 0.37.
+Finished the prediction: 2020-01-28 11:41:48 -0500
