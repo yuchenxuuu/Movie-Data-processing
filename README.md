@@ -75,14 +75,14 @@ Validator#getAccuracy
 #print out the accuracy of the prediction
 
 ```
-##Algorithm explained
+## Algorithm explained
 Prediction algorithm(linear regression): The prediction of the possible rating is depend on the popularity of the movie.(The lookup for movie's popularity is O(1) becuase I stored it in the map). I used a linear regression ruby package to do the calculation. I build a map for every user that maps the user_id with their specific linear regression model. 
 
 -advantage: It has a time complexity of O(n) since all the predict method is to use the user_id to find the regression model. Thus the prediction method only takes O(1) runtime, and scanning through the entries of test datasets takes O(n).
 
 -drawback: Only considered one feature, for some data there are no enough value to get the prediction result, which will affect the accuracy of the prediction.Also, because it needs several maps, the space complexity is O(n).
 
-##Analysis 
+## Analysis 
 Time complexity: O(n)
 Space complexity: O(n)
 The running script of the program:
